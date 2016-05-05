@@ -1,0 +1,334 @@
+   /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+   
+   html,
+   body,
+   div,
+   span,
+   applet,
+   object,
+   iframe,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p,
+   blockquote,
+   pre,
+   a,
+   abbr,
+   acronym,
+   address,
+   big,
+   cite,
+   code,
+   del,
+   dfn,
+   em,
+   img,
+   ins,
+   kbd,
+   q,
+   s,
+   samp,
+   small,
+   strike,
+   strong,
+   sub,
+   sup,
+   tt,
+   var,
+   b,
+   u,
+   i,
+   center,
+   dl,
+   dt,
+   dd,
+   ol,
+   ul,
+   li,
+   fieldset,
+   form,
+   label,
+   legend,
+   table,
+   caption,
+   tbody,
+   tfoot,
+   thead,
+   tr,
+   th,
+   td,
+   article,
+   aside,
+   canvas,
+   details,
+   embed,
+   figure,
+   figcaption,
+   footer,
+   header,
+   hgroup,
+   menu,
+   nav,
+   output,
+   ruby,
+   section,
+   summary,
+   time,
+   mark,
+   audio,
+   video {
+       margin: 0;
+       padding: 0;
+       border: 0;
+       font-size: 100%;
+       font: inherit;
+       vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   
+   article,
+   aside,
+   details,
+   figcaption,
+   figure,
+   footer,
+   header,
+   hgroup,
+   menu,
+   nav,
+   section {
+       display: block;
+   }
+   
+   body {
+       line-height: 1;
+   }
+   
+   ol,
+   ul {
+       list-style: none;
+   }
+   
+   blockquote,
+   q {
+       quotes: none;
+   }
+   
+   blockquote:before,
+   blockquote:after,
+   q:before,
+   q:after {
+       content: '';
+       content: none;
+   }
+   
+   table {
+       border-collapse: collapse;
+       border-spacing: 0;
+   }
+   /*cssrest*/
+   /*   p {
+       color: blue;
+       background-color: orange;
+       font-size: 70;
+   }
+   
+   p.green {
+       color: red;
+       background-color: orange;
+   }
+   
+   p#pig {
+       color: white;
+       background-color: blue;
+   }
+   
+   h1 {
+       color: green;
+       font-weight: 304%;
+   } */
+   /*   body {
+       font-family: Verdana;
+       color: #ffffff;
+       background-color: #000000;
+   }
+   
+   @font-face {
+       font-family: "Emblema One";
+       src: url("http://wickedlysmart.com/hfhtmlcss/charter8/EmblemaOne-Regular.woff"), url("http://wickedlysmart.com/hfhtmlcss/charter8/EmblemaOne-Regular.woff");
+   }
+   
+   h5 {
+       font-family: "Oswald";
+       font-size: 62;
+   }
+   
+   h1 {
+       font-family: "Emblema One";
+       font-size: 48;
+   }
+
+   */
+   
+   body {
+       font-family: "Arial";
+       border-radius: 50em;
+       position: absolute;
+   }
+   
+   .wrap {
+       background-color: yellow;
+       position: relative;
+       top: 0px;
+       left: 60px;
+       width: 1200px;
+       height: 800px;
+   }
+   
+   .circle1 {
+       box-sizing: border-box;
+       background-color: red;
+       position: absolute;
+       padding-top: 30px;
+       top: -30px;
+       left: 260px;
+       width: 200px;
+       height: 200px;
+       border-radius: 50em;
+       text-align: center;
+       color: yellow;
+       font-family: "Arial";
+       font-size: 24px;
+   }
+   
+   .circle3 {
+       box-sizing: border-box;
+       background-color: white;
+       position: absolute;
+       top: 200px;
+       left: 390px;
+       width: 450px;
+       height: 450px;
+       border-radius: 50em;
+       padding-top: 130px;
+       padding-left: 80px;
+       padding-right: 80px;
+       text-align: center;
+       font-size: 16px;
+       color: black;
+   }
+   
+   .circle3 h2 {
+       font-size: 20px;
+   }
+   
+   .circle2 {
+       box-sizing: border-box;
+       background-color: brown;
+       position: absolute;
+       top: 300px;
+       left: 230px;
+       width: 180px;
+       height: 180px;
+       border-radius: 50em;
+       padding-top: 45px;
+       padding-left: 20px;
+       /*text-align: center;*/
+       font-size: 12px;
+       color: white;
+   }
+   
+   .circle4 {
+       box-sizing: border-box;
+       background-color: white;
+       position: absolute;
+       top: 180px;
+       left: 750px;
+       width: 150px;
+       height: 150px;
+       border-radius: 50em;
+       padding-top: 20px;
+       padding-left: 20px;
+       /*text-align: center;*/
+       /*font-size: 12px;*/
+       color: white;
+   }
+   
+   .circle4 img {
+       width: 80%;
+       vertical-align: middle;
+   }
+   
+   .circle5 {
+       box-sizing: border-box;
+       background-color: brown;
+       position: fixed;
+       top: 550px;
+       left: 950px;
+       width: 80px;
+       height: 80px;
+       border-radius: 50em;
+       padding-top: 20px;
+       padding-left: 15px;
+       /*text-align: center;*/
+       font-size: 12px;
+       color: white;
+   }
+   
+   .circle5 img {
+       margin: auto;
+       padding-top: 5px;
+       padding-left: 15px;
+   }
+   
+   .circle6 {
+       box-sizing: border-box;
+       background-color: red;
+       position: absolute;
+       padding-top: 30px;
+       top: 630px;
+       left: 300px;
+       width: 140px;
+       height: 140px;
+       border-radius: 50em;
+       padding-top: 60px;
+       padding-left: 10px;
+       text-align: center;
+       color: yellow;
+       font-family: "Arial";
+       font-size: 12px;
+   }
+   
+   p.guarantee {
+       width: 60%;
+       border-color: none;
+       line-height: 50px;
+       text-align: center;
+       /*文字制中*/
+       background-color: #a7cece;
+       background-image: url(images/coffee-cup.png);
+       background-position: top-left;
+       background-repeat: repeat-x;
+       border-width: 2px;
+       border-color: white;
+       border-style: dashed;
+       border-radius: 2em;
+       border-top-right-radius: 0em;
+       padding-left: 150px;
+       padding-right: 80px;
+       padding-top: 80px;
+       padding-bottom: 80px;
+       /*padding: 10%;*/
+       margin: auto;
+       /*制中*/
+       margin-bottom: 20px;
+       font-family: "chword";
+       font-size: 32px;
+   }
